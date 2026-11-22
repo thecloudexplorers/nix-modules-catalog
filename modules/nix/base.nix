@@ -81,8 +81,8 @@ in
       type = lib.types.listOf lib.types.str;
       default = [
         "https://cache.nixos.org?priority=10"
-        "https://nix-community.cachix.org"
-        "https://cache.nixos-cuda.org"
+        "https://nix-community.cachix.org?priority=15"
+        "https://cache.nixos-cuda.org?priority=20"
       ];
       description = "Binary cache substituters, in priority order.";
     };
